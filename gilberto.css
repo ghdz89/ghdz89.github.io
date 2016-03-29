@@ -27,17 +27,7 @@ nav {
   background-color: #FFF;
 }
 
-/*For learning purposes only*/
-
-/*div {
-  border: 1px solid red;
-}*/
-
-.container-fluid {
-  /*border: 1px solid blue;*/
-  /*margin-top: 10px;*/
-  /*margin-bottom: 10px;*/
-}
+/*Borders for learning purposes only*/
 
 h1 {
   /*border: 1px solid red;*/
@@ -89,11 +79,6 @@ p {
 .map {
   margin: 0px;
   padding: 20px 20px 20px 20px;
-}
-
-.social {
-  /*border: 1px solid black;*/
-  padding: 150px 180px 300px 180px;
 }
 
 .profile{
