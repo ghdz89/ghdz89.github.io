@@ -84,3 +84,8 @@ p {
 .profile{
   padding-top: 35px;
 }
+
+img{
+  width:100%;
+  height:100%;
+}
