@@ -1,6 +1,6 @@
-* {
+/** {
   border: 1px solid rgba(0,0,0,0.3);
-}
+}*/
 
 body {
   margin-top: 50px;
@@ -19,13 +19,12 @@ a:hover{
 
 .pizza {
   background: url("/pizza.png") no-repeat center center;
-  background-size: 600px 600px;
+  background-size: 550px 550px;
   height: 100%;
 }
 
 .jumbotron {
-/*  border: 1px solid black;*/
-  height: 850px;
+/*  height: 850px;*/
   background-color: #FFF;
 }
 
