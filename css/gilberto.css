@@ -17,8 +17,9 @@ a:hover{
 }
 
 .pizza {
-  background: url("/pizza.png") no-repeat center center;
-  background-size: 550px 550px;
+  background: url('../img/pizza.png') no-repeat center center;
+  /*background-size: 550px 550px;*/
+  background-size: contain;
   height: 100%;
 }
 
@@ -46,7 +47,8 @@ p {
 }
 
 .map {
-  background: #FFF url("/map.png") no-repeat center center;
+  background: #FFF url('../img/map.png') no-repeat center center;
+  background-size: contain;
   height: 100%;
   margin: 0px;
   padding: 20px 20px 20px 20px;
