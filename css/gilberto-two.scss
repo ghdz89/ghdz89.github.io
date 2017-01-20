@@ -120,12 +120,14 @@ div.portfolio {
   @include div-dimensions();
 
   img.project {
-    display: inline-block;
-    height: 50%;
+    display: block;
+    margin: auto;
+    height: 70%;
     width: auto;
     border: 2px solid black;
     padding: 25px;
-    margin-left: 4%;
-    margin-top: 13%;
+    position: relative;
+    top: 23%;
+
   }
 }
