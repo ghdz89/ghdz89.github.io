@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+@mixin link-visit() {
+  text-decoration: none;
+  color: #000;
+}
+
+@mixin div-dimensions() {
+  margin-top: 60px;
+  height: 765px;
+  width: 100%px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    @include link-visit();
+  }
+}
+
+a.portfolio-link.red {
+  color: Red;
+}
+
+a.linkedin, a.codecademy {
+  &:hover, &:focus {
+    color: Red;
+  }
+}
+
+body {
+  width: 100%;
+  height: 500px;
+  line-height: 1;
+}
+
+div.navigation {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 5px;
+  background-color: transparent;
+
+  nav.nav-left {
+   float: left;
+   height: 100%;
+   margin-left: 1%;
+  }
+
+  nav.nav-right {
+    float: right;
+    height: 100%;
+    margin-right: 1%;
+  }
+}
+
+nav {
+  ul {
+    height: 100%;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      margin: 10px;
+    }
+  }
+}
+
+
+div.about {
+  @include div-dimensions();
+
+  div.pizza {
+    height: 100%;
+    width: 50%;
+    float: left;
+
+    img.pizza {
+      height: 480px;
+      width: auto;
+      margin-top: 22%;
+      margin-right: 5%;
+      float: right;
+    }
+  }
+
+  div.profile {
+    height: 100%;
+    width: 50%;
+    float: right;
+
+    ul.profile {
+      margin-top: 25%;
+      margin-left: 3%;
+      list-style: none;
+
+      li {
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin-left: 5%;
+
+        span.glyphicon {
+          margin-right: 3%;
+        }
+      } 
+    }
+  }
+}
+
+div.portfolio {
+  @include div-dimensions();
+
+  img.project {
+    display: inline-block;
+    height: 50%;
+    width: auto;
+    border: 2px solid black;
+    padding: 25px;
+    margin-left: 4%;
+    margin-top: 13%;
+  }
+}
