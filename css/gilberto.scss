@@ -1,10 +1,6 @@
 * {
   box-sizing: border-box;
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  border: 1px dotted red;
 }
 
 @mixin link-visit() {
@@ -15,7 +11,7 @@
 @mixin div-dimensions() {
   margin-top: 60px;
   height: 765px;
-  width: 100%px;
+  width: 100%;
 }
 
 a {
@@ -85,7 +81,7 @@ div.about {
     float: left;
 
     img.pizza {
-      height: 480px;
+      height: 66%;
       width: auto;
       margin-top: 22%;
       margin-right: 5%;
@@ -125,7 +121,7 @@ div.portfolio {
     height: 70%;
     width: auto;
     border: 2px solid black;
-    padding: 25px;
+    padding: 3%;
     position: relative;
     top: 23%;
 
