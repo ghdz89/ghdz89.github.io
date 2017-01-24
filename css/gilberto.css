@@ -15,15 +15,10 @@ a.portfolio-link.red {
 a.linkedin:hover, a.linkedin:focus, a.codecademy:hover, a.codecademy:focus {
   color: Red; }
 
-body {
-  width: 100%;
-  line-height: 1; }
-
 div.navigation {
   height: 60px;
   width: 100%;
   position: fixed;
-  top: 5px;
   background-color: transparent; }
   div.navigation nav.nav-left {
     float: left;
@@ -43,16 +38,16 @@ nav ul {
 
 div.about {
   margin-top: 60px;
-  height: 765px;
+  height: 940px;
   width: 100%; }
   div.about div.pizza {
     height: 100%;
     width: 50%;
     float: left; }
     div.about div.pizza img.pizza {
-      height: 66%;
+      height: 55%;
       width: auto;
-      margin-top: 22%;
+      margin-top: 23%;
       margin-right: 5%;
       float: right; }
   div.about div.profile {
@@ -61,23 +56,22 @@ div.about {
     float: right; }
     div.about div.profile ul.profile {
       margin-top: 25%;
-      margin-left: 3%;
+      margin-left: 5%;
       list-style: none; }
       div.about div.profile ul.profile li {
         margin-top: 2%;
-        margin-bottom: 3%;
-        margin-left: 5%; }
+        margin-bottom: 3%; }
         div.about div.profile ul.profile li span.glyphicon {
           margin-right: 3%; }
 
 div.portfolio {
   margin-top: 60px;
-  height: 765px;
+  height: 940px;
   width: 100%; }
   div.portfolio img.project {
     display: block;
     margin: auto;
-    height: 70%;
+    height: 52%;
     width: auto;
     border: 2px solid black;
     padding: 3%;

@@ -8,9 +8,11 @@
   color: #000;
 }
 
+// Divs accomodate height of nav, sized to 1000px height screen
+
 @mixin div-dimensions() {
   margin-top: 60px;
-  height: 765px;
+  height: 940px;
   width: 100%;
 }
 
@@ -33,16 +35,10 @@ a.linkedin, a.codecademy {
   }
 }
 
-body {
-  width: 100%;
-  line-height: 1;
-}
-
 div.navigation {
   height: 60px;
   width: 100%;
   position: fixed;
-  top: 5px;
   background-color: transparent;
 
   nav.nav-left {
@@ -80,9 +76,9 @@ div.about {
     float: left;
 
     img.pizza {
-      height: 66%;
+      height: 55%;
       width: auto;
-      margin-top: 22%;
+      margin-top: 23%;
       margin-right: 5%;
       float: right;
     }
@@ -95,13 +91,12 @@ div.about {
 
     ul.profile {
       margin-top: 25%;
-      margin-left: 3%;
+      margin-left: 5%;
       list-style: none;
 
       li {
         margin-top: 2%;
         margin-bottom: 3%;
-        margin-left: 5%;
 
         span.glyphicon {
           margin-right: 3%;
@@ -117,7 +112,7 @@ div.portfolio {
   img.project {
     display: block;
     margin: auto;
-    height: 70%;
+    height: 52%;
     width: auto;
     border: 2px solid black;
     padding: 3%;
