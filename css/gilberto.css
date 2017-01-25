@@ -1,6 +1,5 @@
 * {
-  box-sizing: border-box;
-  border: 1px dotted red; }
+  box-sizing: border-box; }
 
 a {
   color: #000;
@@ -19,6 +18,7 @@ div.navigation {
   height: 60px;
   width: 100%;
   position: fixed;
+  top: 1%;
   background-color: transparent; }
   div.navigation nav.nav-left {
     float: left;

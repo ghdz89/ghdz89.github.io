@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px dotted red;
+  // border: 1px dotted red;
 }
 
 @mixin link-visit() {
@@ -39,6 +39,7 @@ div.navigation {
   height: 60px;
   width: 100%;
   position: fixed;
+  top: 1%;
   background-color: transparent;
 
   nav.nav-left {
