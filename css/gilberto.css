@@ -68,12 +68,26 @@ div.portfolio {
   margin-top: 60px;
   height: 940px;
   width: 100%; }
-  div.portfolio img.project {
-    display: block;
-    margin: auto;
+  div.portfolio div.prj-container {
     border: 2px solid black;
-    padding: 3%;
+    border-radius: 80px;
+    width: 50%;
+    margin: auto;
     position: relative;
     top: 12%; }
+    div.portfolio div.prj-container h1 {
+      text-align: center;
+      margin-top: 3%;
+      font-weight: bold; }
+      div.portfolio div.prj-container h1 a.mtg {
+        color: #e67e22; }
+        div.portfolio div.prj-container h1 a.mtg:hover, div.portfolio div.prj-container h1 a.mtg:focus {
+          color: Red; }
+    div.portfolio div.prj-container img.project {
+      display: block;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      padding: 3%; }
 
 /*# sourceMappingURL=gilberto.css.map */
