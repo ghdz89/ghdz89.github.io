@@ -110,15 +110,33 @@ div.about {
 div.portfolio {
   @include div-dimensions();
 
-  img.project {
-    display: block;
-    margin: auto;
-    height: 52%;
-    width: auto;
+  div.prj-container {
     border: 2px solid black;
-    padding: 3%;
+    border-radius: 80px;
+    width: 50%;
+    margin: auto;
     position: relative;
-    top: 23%;
+    top: 12%;
 
+    h1 {
+      text-align: center;
+      margin-top: 3%;
+      font-weight: bold;
+
+      a.mtg {
+        color: #e67e22;
+        &:hover, &:focus {
+          color: Red;
+        }
+      }
+    }
+
+    img.project {
+      display: block;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      padding: 3%;
+    }
   }
 }
