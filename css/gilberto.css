@@ -18,8 +18,7 @@ div.navigation {
   height: 60px;
   width: 100%;
   position: fixed;
-  top: 1%;
-  background-color: transparent; }
+  top: 1%; }
   div.navigation nav.nav-left {
     float: left;
     height: 100%;
@@ -89,5 +88,20 @@ div.portfolio {
       width: 100%;
       height: auto;
       padding: 3%; }
+
+@media only screen and (max-width: 1120px) {
+  div.about {
+    margin: auto;
+    position: relative;
+    right: 25%; }
+    div.about div.profile {
+      height: 100%;
+      width: 50%;
+      margin: auto; }
+    div.about div.pizza {
+      position: relative;
+      top: 50%;
+      left: 33%;
+      height: 50%; } }
 
 /*# sourceMappingURL=gilberto.css.map */

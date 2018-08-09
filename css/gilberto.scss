@@ -40,7 +40,7 @@ div.navigation {
   width: 100%;
   position: fixed;
   top: 1%;
-  background-color: transparent;
+  // background-color: transparent;
 
   nav.nav-left {
    float: left;
@@ -137,6 +137,27 @@ div.portfolio {
       width: 100%;
       height: auto;
       padding: 3%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  div.about {
+    margin: auto;
+    position: relative;
+    right: 25%;
+
+    div.profile {
+      height: 100%;
+      width: 50%;
+      margin: auto;
+    }
+
+    div.pizza {
+      position: relative;
+      top: 50%;
+      left: 33%;
+      height: 50%;
     }
   }
 }
