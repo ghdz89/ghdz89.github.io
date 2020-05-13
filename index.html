@@ -2,56 +2,31 @@
 <html>
 <head>
   <title>GHV</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
   <!-- Bootstrap used only for the glyphicons -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="css/reset.css" type="text/css" rel="stylesheet">
-  <link href="css/gilberto.css" type="text/css" rel="stylesheet">  
   <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon"  />
 </head>
 <body>
-  <div class="navigation">
-    <nav class="nav-left">
-      <ul>
-        <li>GHV</li>
-      </ul>
-    </nav>
 
-    <nav class="nav-right">
-      <ul>
-        <li id="portfolio"><a href="#portfolio" class="portfolio-link">Portfolio</a></li>
-        <!-- <li id="blog">Blog</a> -->
-        <li><a href="mailto:ghdz89@gmail.com" target="_blank">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-  
-  <div class="about">
-    <div class="pizza">
-      <img src="img/pizza.png" alt="Pizza pizza" class="pizza" />
-    </div>
-    <div class="profile">
-      <ul class="profile">
-        <li><span class="glyphicon glyphicon-user" aria-hidden="true"></span><a href="https://www.linkedin.com/in/gilberto-hernandez-12b39451" target="_blank" class="linkedin">Gilberto Hernandez</a></li>
-        <li><span class="glyphicon glyphicon-education" aria-hidden="true"></span>Rice University</li>
-        <li><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>B.S. Electrical Engineering</li>
-        <li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>@ <a href="https://www.codecademy.com" target="_blank" class="codecademy">Codecademy</a></li>
-        <li><span class="glyphicon glyphicon-console" aria-hidden="true"></span>Product Manager, Curriculum</li>
-        <li><span class="glyphicon glyphicon-apple" aria-hidden="true"></span>Obsessed with education</li>
-        <li><span class="glyphicon glyphicon-fire" aria-hidden="true"></span>Obsessed with boxing</li>
-      </ul>
-    </div>
-  </div>
+  <div class="container">
+    <div class="row">
 
-  <div class="portfolio">
-    <div class="prj-container">
-      <h1><a href="https://mapthegap.herokuapp.com/" target="blank" class="mtg">Map The Gap</a></h1>
-    <img src="img/map.png" alt="A map of America" class="project" />
-    <!-- <img src="img/map.png" alt="8 Kount Boxing" class="project" /> -->
+      <div class="col flex">
+        <ul class="profile">
+          <li class="name"><a href="https://www.linkedin.com/in/gilberto-hernandez" target="_blank" class="linkedin">Gilberto Hernandez</a></li>
+          <li>Sr. Product Manager @ <a href="https://www.mongodb.com" target="_blank" class="mongodb">MongoDB</a></li>
+          <li>Brooklyn, NY</li>
+        </ul>
+      </div>
+
+      <div class="col flex">
+        <div class="pizza">
+          <img src="img/pizza-1.png" alt="Pizza pizza" class="pizza" />
+        </div>
+      </div>
     </div>
   </div>
-  
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-  <script src="/script/app.js"></script>
 </body>
 </html>
