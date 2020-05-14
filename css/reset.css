@@ -75,9 +75,14 @@ div.col.flex {
 img.pizza {
   max-width: 50%;
   margin-left: 15%;
+  transition: transform .2s;
 }
 
-@media screen and (min-width: 414px) {
+img.pizza:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 414px) {
 
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -105,7 +110,7 @@ img.pizza {
   }
 
   div.col.flex {
-    margin-top: 50%;
+    margin-top: 30%;
   }
 
   div.col.flex.two {
