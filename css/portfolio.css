@@ -19,7 +19,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   /*border: 0;*/
-  font-size: 1.33rem;
+  font-size: 1rem;
   font-family: 'DM Mono', monospace;
   /*vertical-align: baseline;*/
 }
@@ -28,10 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
-  line-height: 3;
-  margin-top: 16%;
+  margin-top: 8%;
 }
+
 ol, ul {
   list-style: none;
 }
@@ -50,36 +51,69 @@ table {
 
 /** Gilberto's CSS **/
 
-a {
-  color: #000;
-}
-  
-a:hover, a:focus {
-  color: #000; 
-}
-
-a.mongodb {
-  color: #13aa52;
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.001), 0 3px 10px 0 rgba(0, 0, 0, 0.17);
+  transition: transform .2s;
+  padding: 3rem;
+  margin-left: 11%;
 }
 
-div.col.flex {
+.card-body {
+  margin-top: 5%;
+}
+
+div.card:hover {
+  transform: scale(1.025);
+}
+
+div.card.map:hover {
+  border-color: #e67e22;
+  border-width: 2px;
+}
+
+div.card.boxing:hover {
+  border-color: #05abe0;
+  border-width: 2px;
+}
+
+div.go-back {
   display: flex;
-  justify-content: center;
-
+  margin: auto;
 }
 
-/*ul.profile {
-  margin-left: 5%;
-}*/
-
-img.pizza {
-  max-width: 50%;
-  margin-left: 15%;
+button.back {
+  color: #FFF;
+  margin: auto;
+  background-color: #07c185;
+  border-color: #07c185;
   transition: transform .2s;
 }
 
-img.pizza:hover {
+button.back:hover {
+  color: #FFF;
   transform: scale(1.1);
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 10%;
+}
+
+a:hover, a:focus {
+  color: #FFF;
+}
+
+a.mtg {
+  color: #000;
+  margin: 0;
+}
+  
+img.boxing {
+  max-width: 60%;
+  margin: auto;
 }
 
 @media screen and (max-width: 414px) {
