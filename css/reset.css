@@ -75,6 +75,11 @@ div.col.flex {
 img.pizza {
   max-width: 50%;
   margin-left: 15%;
+  transition: transform .2s;
+}
+
+img.pizza:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 414px) {
