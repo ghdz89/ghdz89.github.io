@@ -79,7 +79,17 @@ img.pizza {
 }
 
 img.pizza:hover {
+  animation: rotation 2s infinite linear;
   transform: scale(1.1);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 @media screen and (max-width: 414px) {

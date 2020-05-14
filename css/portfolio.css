@@ -67,6 +67,16 @@ div.card:hover {
   transform: scale(1.025);
 }
 
+div.card.map:hover {
+  border-color: #e67e22;
+  border-width: 2px;
+}
+
+div.card.boxing:hover {
+  border-color: #05abe0;
+  border-width: 2px;
+}
+
 div.go-back {
   display: flex;
   margin: auto;
@@ -75,43 +85,36 @@ div.go-back {
 button.back {
   color: #FFF;
   margin: auto;
-  margin-top: 10%;
   background-color: #07c185;
   border-color: #07c185;
   transition: transform .2s;
 }
 
 button.back:hover {
+  color: #FFF;
   transform: scale(1.1);
 }
 
 a {
   color: #FFF;
   text-decoration: none;
+  margin: auto;
+  margin-top: 10%;
 }
 
 a:hover, a:focus {
-  text-decoration: none;
   color: #FFF;
 }
+
+a.mtg {
+  color: #000;
+  margin: 0;
+}
   
-/*a:hover, a:focus {
-  color: #000; 
+img.boxing {
+  max-width: 60%;
+  margin: auto;
 }
-*/
-/*ul.profile {
-  margin-left: 5%;
-}*/
-
-/*img.pizza {
-  max-width: 50%;
-  margin-left: 15%;
-  transition: transform .2s;
-}
-
-img.pizza:hover {
-  transform: scale(1.1);
-}*/
 
 @media screen and (max-width: 414px) {
 
