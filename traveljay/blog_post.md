@@ -72,7 +72,7 @@ curl "https://api.mapbox.com/geocoding/v5/mapbox.places/Washington.json?limit=2&
 
 **4. Clone the repo containing the starting code**
 
-I've provided the starting code for the app so that we can focus on the Mapbox APIs and not worry too much about HTML structure and CSS styling. To obtain the code, you'll need to clone the **traveljay** repository I created on GitHub.
+I've provided the starting code for the app so that we can focus on the Mapbox APIs and not worry too much about HTML structure and CSS styling. To obtain the code, you'll need to clone the [**traveljay** repository I created on GitHub](https://github.com/ghdz89/traveljay).
 
 Open your terminal and run the following command:
 
